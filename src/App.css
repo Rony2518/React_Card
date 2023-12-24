@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #22252c;
+  color: white;
+}
+
+.main_box{
+  margin-top: 12px;
+  background: #1a1b20;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 45px rgba(152, 152, 152, 0.2);
+}
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contain > img{
+  width: 300px;
+  height: 295px;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.contain h2{
+  margin-top: 4px;
+}
+
+.contain h4{
+  color: #5b4a45;
+  margin-bottom: 4px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
+.email,
+.linkdein{
+  padding: 15px;
+  border-radius: 8px;
+  width: 90px;
+  height: 7px;
+  align-items: center;
+  display: flex;
+}
+
+.email{
+  background-color: aliceblue;
+  margin-right: 20px;
+  color: black;
+}
+
+.linkdein{
+  background-color: #5093e2;
+  color: white;
+}
+
+.details{
+  width: 250px;
+  margin: 0 20px;
+}
+
+.details_item{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.details_item p{
+  margin-top: 4px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.social{
+  padding: 20px;
+  background-color: #16151a;
+  margin-top: 10px;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-around;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
